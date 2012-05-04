@@ -1,4 +1,7 @@
 cassandraio-client-libraries
 ============================
 
-Cassandra.io client libraries
+All Cassandra.io REST helper libraries. 
+
+1. Ruby
+2. PHP
