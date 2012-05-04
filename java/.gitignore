@@ -1,0 +1,6 @@
+target/
+bin/
+javadoc/
+.classpath
+.settings
+docGen.sh
