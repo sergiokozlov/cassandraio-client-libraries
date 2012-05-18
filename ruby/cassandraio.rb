@@ -70,8 +70,8 @@ class CassandraIO
     @token = options[:token]
     @accountId = options[:accountId]
     @type = 'https'
-    if (options[:ssl] == 'true')
-      @type = 'https'
+    if (options[:ssl] == 'false')
+      @type = 'http'
     end
     if (options[:port])
       @port = options[:port]
@@ -85,7 +85,7 @@ class CassandraIO
     if (options[:port])
       @port = options[:port]
     end
-    @prefix = @heroku + '/v0.1'
+    @prefix = @heroku + '/1'
     @apiUrl = @type + '://' + @prefix
   end
 
